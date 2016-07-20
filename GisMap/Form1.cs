@@ -33,7 +33,11 @@ namespace GisMap
             axMap1.Size = new System.Drawing.Size(560, 413);
             //     axMap1.TabIndex = 2;
 
-            GisSet.GisSetControl m_GisSetControl = new GisSet.GisSetControl();
+            GisSetControl m_GisSetControl = new GisSetControl();
+            this.Controls.Add(m_GisSetControl);
+            m_GisSetControl.Location = new System.Drawing.Point(0, 400);
+            m_GisSetControl.Size = new System.Drawing.Size(560, 100);
+          
         }
     }
 }
